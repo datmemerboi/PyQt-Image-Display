@@ -16,6 +16,7 @@ class App(object):
 
 		frame1.setStyleSheet(frame1Contents)
 		pixmap = QPixmap("https://raw.githubusercontent.com/datmemerboi/PyQt-Image-Display/master/PF.png").scaledToWidth(900)
+		# File System link to be replaced ^
 		frame1.resize(pixmap.width(), pixmap.height())
 		frame1.move(230, 100)
 		frame1.setPixmap(pixmap)
